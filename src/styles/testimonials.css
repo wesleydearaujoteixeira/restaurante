@@ -55,3 +55,40 @@
 .feedback-content p span {
     color: #e9a209;
 }
+
+@media screen and (max-width: 1170px){
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .section-subtitle {
+        font-size: 10px;
+        width: 60vw;
+        text-align: center;
+    }
+  
+
+
+    .feedbacks {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 60vw;
+        padding: 6px;
+    }
+
+    #testimonials_chef {
+        width: 250px;
+        height: auto;
+    }
+
+
+    .testimonials_content {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        flex-direction: column;
+    }
+}

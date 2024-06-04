@@ -26,3 +26,29 @@ const DeleteMenu = () => {
 
 
 menu.addEventListener('click', toggleMenu);
+
+ScrollReveal().reveal('#cta', {
+    origin: 'left',
+    duration: 2000,
+    distance: '20%'
+});
+
+
+ScrollReveal().reveal('.testimonials', {
+    origin: 'left',
+    duration: 1000,
+    distance: '20%'
+});
+
+
+ScrollReveal().reveal('.dish', {
+    origin: 'left',
+    duration: 2000,
+    distance: '20%'
+});
+
+ScrollReveal().reveal('.feedbacks', {
+    origin: 'right',
+    duration: 2500,
+    distance: '20%'
+})
